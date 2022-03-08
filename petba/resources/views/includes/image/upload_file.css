@@ -1,0 +1,81 @@
+.border_container{
+    position: relative;
+    width: 100%;
+    height: 175px;
+    border: 1px solid #7eb1b1;
+    border-style: dashed;
+    align-items: center;      
+    padding: 0px;
+    margin-left: 10px;
+    margin-right: 10px;
+}
+
+.border_container a.fill_container {
+    position: absolute;
+    display: block;
+    height: 173px;
+    width: inherit;
+    /* width: 100%; */
+    text-decoration: none;
+    padding: 0px;
+    align-items: center;    
+    background-color: #f6fffc;
+}
+
+/* mouse over link */
+.border_container a.fill_container:hover {
+   background-color: #e1ecee;   
+}
+.border_container .center {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 100%;
+}
+.border_container .center_container {      
+    margin: auto;
+    text-align: center;
+    padding: 60px 0px;
+    font-size: 15px;
+    font-weight: 600;
+}
+  
+
+
+#show_progress{
+    position: absolute;
+    left: 11px;
+    bottom: 24px;
+    margin: auto;
+    width: 100%;
+}
+
+.view_player {
+    width: 350px;
+}
+
+.re_upload_button{
+    position: absolute;
+    top: -6px;
+    cursor: pointer;
+    padding: 0px;
+    margin: 0px -15px
+}
+
+
+/* ---------------------- progree indicator------------------------------------------ */
+#myProgress {
+    width: 100%;
+    border-radius: 25px;
+    background-color: #dddddd;
+    margin: 10px 0px 10px 10px;
+    padding: 0px;
+}
+#myBar {
+    width: 0%;
+    height: 8px;
+    border-radius: 25px;
+    background-color: #4CAF50;
+}
+/* ---------------------- progree indicator ------------------------------------------ */
+    
